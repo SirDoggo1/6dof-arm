@@ -48,7 +48,7 @@
 
 "c_run"= 0.5
 
-"c_ax"= 0.3
+"c_ax"= 2 * "t_gap"
 
 "D_pocket"= 2 * "R_pin" + "d_pin" + 2 * "c_run"
 
