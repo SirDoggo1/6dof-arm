@@ -1,0 +1,47 @@
+﻿"N_pin"= 14
+
+"R_pin"= 27.5
+
+"d_pin"= 7
+
+"e"= 1
+
+"t_disk"= 4
+
+"N_outpin"= 6
+
+"R_outpin"= 16
+
+"d_outpin"= 7
+
+"N_lobes"= "N_pin" - 1
+
+"d_outhole" = "d_outpin" + 2 * "e"
+
+"ratio"= "N_lobes"
+
+"d_center" = 18
+
+"a_hole1" = 0 / "N_lobes"
+
+"a_hole2" = 360 / "N_disk" / "N_lobes"
+
+"a_hole3" = 720 / "N_disk" / "N_lobes"
+
+"N_disk"= 2
+
+"t_gap"= 0.5
+
+"L_stack"= "N_disk" * "t_disk" + ("N_disk" - 1) * "t_gap"
+
+"d_pinshaft"= 3
+
+"d_ecc"= 12
+
+"d_outbrg"= 37
+
+"w_outbrg"= 7
+
+"d_outshaft"= 25
+
+"w_brg"= 3

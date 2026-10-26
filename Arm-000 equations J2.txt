@@ -1,0 +1,66 @@
+﻿"N_pin"= 24
+
+"R_pin"= 60
+
+"d_pin"= 13
+
+"e"= 1.5
+
+"t_disk"= 5
+
+"N_outpin"= 8
+
+"R_outpin"= 34
+
+"d_outpin"= 13
+
+"N_lobes"= "N_pin" - 1
+
+"d_outhole"= "d_outpin" + 2 * "e"
+
+"ratio"= "N_lobes"
+
+"d_center"= 24
+
+"a_hole1"= 0 / "N_lobes"
+
+"a_hole2"= 360 / "N_disk" / "N_lobes"
+
+"a_hole3"= 720 / "N_disk" / "N_lobes"
+
+"N_disk"= 3
+
+"t_gap"= 0.5
+
+"L_stack"= "N_disk" * "t_disk" + ("N_disk" - 1) * "t_gap"
+
+"d_pinshaft"= 6
+
+"d_ecc"= 15
+
+"d_outbrg"= 47
+
+"w_outbrg"= 7
+
+"d_outshaft"= 35
+
+"w_brg"= 5
+
+"c_run"= 0.5
+
+"c_ax"= 0.3
+
+"D_pocket"= 2 * "R_pin" + "d_pin" + 2 * "c_run"
+
+"h_pocket"= "L_stack" + 2 * "c_ax"
+
+"t_floor"= 8
+
+"d_insert"= 5.6
+
+"N_bolt"= 8
+
+"R_bolt"= "D_pocket" / 2 + 2 + "d_insert" / 2
+
+"D_housing"= 2 * ("R_bolt" + "d_insert" / 2 + 2.5)
+
