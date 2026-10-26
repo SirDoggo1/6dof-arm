@@ -30,7 +30,7 @@
 
 "N_disk"= 3
 
-"t_gap"= 0.5
+"t_gap"= 1
 
 "L_stack"= "N_disk" * "t_disk" + ("N_disk" - 1) * "t_gap"
 
@@ -48,7 +48,7 @@
 
 "c_run"= 0.5
 
-"c_ax"= 2 * "t_gap"
+"c_ax"= "t_gap"
 
 "D_pocket"= 2 * "R_pin" + "d_pin" + 2 * "c_run"
 
